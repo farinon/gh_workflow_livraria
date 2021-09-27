@@ -9,6 +9,10 @@ public class LivroFisico extends Livro implements Promocional{
 		System.out.println("Pimponeta Peta Peta Perruge, faz pim pom!");
 	}
 	
+	public void bolinhaVerdeTurbo(){
+		System.out.println("Pimponeta Peta Peta Perruge, faz pim pom no Turbo!");
+	}
+	
 	//Como essa fun��o � um "get" e p�blica, N�o entendi direito se ela deveria ter a responsabilidade de agregar o valor ao valor inicial
 	//ou apenas mostra-lo, por isso optei de fazer a segunda op��o e apenas chama-la no constructor para agregar ao valor..
 	public double getTaxaImpressao() {
